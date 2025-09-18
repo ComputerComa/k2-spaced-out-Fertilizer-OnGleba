@@ -1,12 +1,15 @@
 {
     "name": "k2_so_fertilizer_on_gleba",
     "version": "1.0.0",
-    "title": "K2 SO Fertilizer on Gleba",
+    "title": "K2 Spaced Out Fertilizer on Gleba",
     "description": "A mod for K2 Spaced Out that adds fertilizer creation functionality on Gleba.",
     "author": "ComputerComa",
     "dependencies": [
-        "Krastorio2-spaced-out >= 1.0.0"
+        "Krastorio2-spaced-out >= 1.4.0",
+        "base >= 2.0.60",
+        "space-age >= 2.0.60"
     ],
     "homepage": "https://github.com/ComputerComa/k2-spaced-out-Fertilizer-OnGleba",
-    "contact": "https://github.com/ComputerComa/k2-spaced-out-Fertilizer-OnGleba/issues"
+    "contact": "https://github.com/ComputerComa/k2-spaced-out-Fertilizer-OnGleba/issues",
+    "factorio_version": "2.0"
 }
