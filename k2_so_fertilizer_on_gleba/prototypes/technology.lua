@@ -8,7 +8,7 @@ data:extend({
         effects = {
             {
                 type = "unlock-recipe",
-                recipe = "fertilizer-from-bioagents"
+                recipe = "k2-so-fert-from-bioagents"
             }
         },
         research_trigger = {

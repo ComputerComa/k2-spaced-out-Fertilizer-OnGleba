@@ -6,6 +6,7 @@ data:extend({
     category = "organic",
     energy_required = 30,
     icon = "__Krastorio2Assets__/icons/items/fertilizer.png",
+    enabled = false,
     ingredients = 
     {
       {type="item", name="nutrients", amount=25},

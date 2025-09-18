@@ -1,7 +1,7 @@
 #Generates a zip package for distribution
 $info = Get-Content ".\k2_so_fertilizer_on_gleba\info.json" -Raw | ConvertFrom-Json
 $version =  $info.version
-$packageName = "k2-so-fertilizer-on-gleba-$version.zip"
+$packageName = "k2_so_fertilizer_on_gleba_$version.zip"
 $sourceDir = ".\k2_so_fertilizer_on_gleba"
 if (Test-Path ".\packages\$packageName") {
     Write-Host "Package $packageName already exists. Ok to overwrite? (Y/N)"
